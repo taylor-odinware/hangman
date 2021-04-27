@@ -88,14 +88,6 @@ def get_random_word(path: str) -> str:
     return random.choice(words)
 
 
-def get_user_input() -> str:
-    """Get letter or word from user
-
-    Returns:
-        str: User letter or word
-    """
-
-
 def check_if_word(guess: str) -> bool:
     """If user enters more than one character assume the user is solveing the puzzle.
 
